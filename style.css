@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f44;
+    margin-bottom:25px;
+}
+.nav-logo{
+    padding: 10px;
+}
+.nav-text{
+    color: #F5F5F5;
+}
+.place-img{
+    width: 250px;
+    border-radius: 10px;
+}
+.place-card{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    font-size:14px;
+    margin: 0 -5px;
+    padding-bottom: 15px;
+    margin-right: 25px;
+}
+.place-info{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.location-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.place-map_link{
+    color:grey;
+    padding-left: 10px;
+}
+.place-title{
+    font-size: 27px;
+    margin: 0 5px;
+}
+.place-date{
+    margin: 0 5px;
+}
+.pointer{
+    width:10px;
+    margin-right: 5px;
+}
